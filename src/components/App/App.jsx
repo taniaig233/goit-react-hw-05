@@ -1,13 +1,11 @@
-import './App.css'
+import Navigation from "../Navigation/Navigation";
+import RouteSection from "../RouteSection/RouteSection";
 
-function App() {
-  
-
+export default function App () {
   return (
     <>
-      
+      <Navigation />
+      <RouteSection />
     </>
-  )
+  );
 }
-
-export default App
